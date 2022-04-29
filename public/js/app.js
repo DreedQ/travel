@@ -10324,13 +10324,15 @@ var CardsBlock = function CardsBlock() {
   //         { id: 4, city: 'Murmansk', type: 'Canoe tour', duration: 5, dateNextTtavel: "18 июня 2022", raiting: 4, price:"33.99$", imgSrc:"../../img/img_travel_01.jpg" },
   //         { id: 5, city: 'Vologda', type: 'Bike tour', duration: 24, dateNextTtavel: "30 мая 2022", raiting: 4.5, price:"100$", imgSrc:"../../img/img_travel_01.jpg" }]);
   //     },[])
-  // const useEffect(() => {
-  //         fetch(`/${page}`)
-  //              .then(res => res.json())
-  //              .then(data => setTravels(data))
-  //     }, [page]);
 
 
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(function () {
+    fetch("/".concat(page)).then(function (res) {
+      return res.json();
+    }).then(function (data) {
+      return setTravels(data);
+    });
+  }, [page]);
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {
     className: "slider",
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {

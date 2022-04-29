@@ -5,9 +5,15 @@
   font-family: 'Inter', sans-serif;
 }
 
+<<<<<<< HEAD
 .container {
   max-width: 1600px;
   margin: 35px;
+=======
+container {
+  width: 1600px;
+  margin: 25px;
+>>>>>>> week1_sprint
 }
 
 .navbar {
@@ -41,13 +47,20 @@
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
+<<<<<<< HEAD
   font-size: 21px;
+=======
+  font-size: 15px;
+>>>>>>> week1_sprint
   line-height: 48px;
   display: flex;
   align-items: center;
   color: #FFFFFF;
   background: #FB8F1D;
+<<<<<<< HEAD
   border: none;
+=======
+>>>>>>> week1_sprint
   border-radius: 8px;
   padding: 0 36px;
   -webkit-border-radius: 8px;
@@ -92,8 +105,13 @@ h1 {
 .finder {
   margin-left: 190px;
   display: flex;
+<<<<<<< HEAD
   max-width: 550px;
   max-height: 344px;
+=======
+  width: 471px;
+  height: 344px;
+>>>>>>> week1_sprint
   left: 190px;
   top: 434px;
   font-family: 'Inter';
@@ -101,12 +119,18 @@ h1 {
   font-weight: 600;
   font-size: 22px;
   line-height: 27px;
+<<<<<<< HEAD
   padding-bottom: 18px;
   margin-bottom: 38px;
 }
 
 .finder__switchers {
   max-width: 500px;
+=======
+}
+
+.finder__switchers {
+>>>>>>> week1_sprint
   flex-wrap: wrap;
   font-family: 'Inter';
   font-style: normal;
@@ -157,6 +181,7 @@ select {
 
 .card {
   max-width: 345px;
+<<<<<<< HEAD
   max-height: 480px;
   margin: 35px;
   cursor: pointer;
@@ -191,10 +216,18 @@ select {
   max-height: -webkit-fit-content;
   max-height: -moz-fit-content;
   max-height: fit-content;
+=======
+  position: relative;
+}
+
+.card__img {
+  max-width: 295px;
+>>>>>>> week1_sprint
 }
 
 .card__head {
   position: absolute;
+<<<<<<< HEAD
   background: none;
   color: #49D8E9;
   font-style: italic;
@@ -268,4 +301,15 @@ select {
   align-items: center;
   justify-content: center;
   background-color: #3C587F;
+=======
+  bottom: 180px;
+  background: none;
+  color: #fff;
+  font-style: italic;
+  padding-left: 22px;
+}
+
+.css-iljtu2-MuiRating-root {
+  color: red;
+>>>>>>> week1_sprint
 }

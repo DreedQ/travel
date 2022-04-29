@@ -1,6 +1,10 @@
 require('./bootstrap');
 
 import React from 'react'
+<<<<<<< HEAD
+=======
+import RoutesWay from "./router/RoutesWay"
+>>>>>>> week1_sprint
 import "../css/index.css"
 import Home from "../js/router/pages/Home";
 import About from "../js/router/pages/About";
